@@ -1,0 +1,40 @@
+.card_conteiner {
+  background-color: brown;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  border: 0.1em solid black;
+}
+
+.card_article{
+  background-color: yellow;
+  width: 360px;
+  
+  
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.card_title {
+  font-size: 1.1em ;
+  margin-top: 1em;
+}
+
+.card_ul {
+  margin-top: 0.8em;
+
+}
+
+.card_span {
+  display: flex;
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 0.8em;
+  padding: 0.4em 0.8em;
+}

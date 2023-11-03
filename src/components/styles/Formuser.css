@@ -1,0 +1,77 @@
+.formuser-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.301);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 250ms ease;
+}
+
+.close_form {
+  transform: scale(0);
+}
+
+.formuser {
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  padding: 1.5em 1.5em 2.5em;
+  border-radius: 0.7em;
+  position: relative;
+}
+
+.formuser_title {
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.formuser_close {
+  position: absolute;
+  top: 1em;
+  font-size: 1.2rem;
+  right: 1.5em;
+  cursor: pointer;
+}
+.formuser_close:hover {
+  color: rgba(0, 47, 255, 0.747);
+}
+
+.formuser_group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  margin-bottom: 0.8em;
+}
+
+.formuser_label {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.formuser_input{
+  padding: 0.4em 0.8em;
+  border-radius: 0.5em;
+  border: 0.1em solid rgba(0, 0, 0, 0.582);
+}
+
+.formuser_btn {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 0.5em;
+  padding-bottom: 0.6em;
+  background-color: rgba(0, 0, 255, 0.568);
+  border-radius: 0.5em;
+  margin-top: 0.8em;
+  
+}
+
+.formuser_btn:hover {
+  filter: brightness(1.4);
+}
+
